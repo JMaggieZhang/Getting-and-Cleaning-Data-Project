@@ -1,4 +1,4 @@
 # Getting-and-Cleaning-Data-Project
- Jie Zhang
+ Jie Zhang  
 March-8-2016
 
