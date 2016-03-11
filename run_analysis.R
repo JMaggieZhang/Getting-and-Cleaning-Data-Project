@@ -70,4 +70,4 @@ library("plyr")
 ## bind all the data in a single data set
 Data <- cbind(x_data, y_data, subject_data)
 avedata <- ddply(Data, .(subject, activity), function(x) colMeans(x[, 1:66]))
-write.table(averages_data, "avedata.txt", row.name=FALSE)
+write.table(avedata, "avedata.txt", row.name=FALSE)
