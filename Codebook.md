@@ -64,7 +64,7 @@ The set of variables that were estimated from these signals are:
 •	mean(): Mean value  
 •	std(): Standard deviation      
 
-Attribute Information  
+###Attribute Information  
 
 For each record in the dataset it is provided:  
 
