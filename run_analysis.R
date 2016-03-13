@@ -56,8 +56,14 @@ activities <- read.table("UCI HAR Dataset/activity_labels.txt")
 y_data[, 1] <- activities[y_data[, 1], 2]
 names(y_data) <- "activity"
 
+## Check
+head(y_data)
+
 ## 4. Appropriately labels the data set with descriptive variable names.
 names(subject_data) <- "subject"
+
+## Check
+head(subject_data)
 
 
 ## 5. From the data set in step 4, creates a second, independent tidy data set with the average 
