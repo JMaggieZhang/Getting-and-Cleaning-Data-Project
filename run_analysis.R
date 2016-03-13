@@ -47,7 +47,6 @@ names(x_data) <- features[featuresmst, 2]
 names(x_data)
 
 
-
 ## 3. Uses descriptive activity names to name the activities in the data set
 
 ##load the activity labels
@@ -55,12 +54,9 @@ activities <- read.table("UCI HAR Dataset/activity_labels.txt")
 
 ## update values with correct activity names
 y_data[, 1] <- activities[y_data[, 1], 2]
-
-## correct column name
 names(y_data) <- "activity"
 
 ## 4. Appropriately labels the data set with descriptive variable names.
-## correct column name
 names(subject_data) <- "subject"
 
 
